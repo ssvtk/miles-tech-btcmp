@@ -8,5 +8,6 @@
 <br>
 <br>
 [SQL Script for filling data]()
-![my_scheme](https://user-images.githubusercontent.com/49266473/104472133-36820480-55ee-11eb-86cb-7f2f2fe5529d.png)
+![my_scheme (1)](https://user-images.githubusercontent.com/49266473/104481300-3424a800-55f8-11eb-917c-691c82a04445.png)
+
 
