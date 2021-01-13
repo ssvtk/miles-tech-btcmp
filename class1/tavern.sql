@@ -10,6 +10,7 @@ CREATE TABLE [tavern] (
 CREATE TABLE [user] (
   [user_id] int IDENTITY(1,1),
   [tavern_id] int,
+  [name] varchar(50),
   [role] varchar(50),
   [role_description] varchar(150),
   PRIMARY KEY ([user_id])
