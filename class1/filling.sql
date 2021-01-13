@@ -12,10 +12,10 @@ VALUES
 
 INSERT INTO [dbo].[user] (tavern_id, name, role, role_description)
 VALUES
-(1,'Barliman Butterbur', 'owner', 'the owner of the tavern'),
-(2, 'Barliman Butterbur', 'got tavern from mother'),
-(3, 'Carlo Blagrove', 'leads a small tavern'),
-(4, 'Forlong the Fat', 'loves to lead a tavern');
+(1,'Barliman Butterbur', 'owner',  'the owner of the tavern'),
+(2, 'Barliman Butterbur','owner', 'got tavern from mother'),
+(3, 'Carlo Blagrove','owner' ,'leads a small tavern'),
+(4, 'Forlong the Fat','owner','loves to lead a tavern');
 
 INSERT INTO [dbo].[supply] (unit, name)
 VALUES
@@ -25,7 +25,7 @@ VALUES
 ('kg', 'onions'),
 ('ounce', 'strong ale');
 
-INSERT INTO [dbo].[service_status] (id, status)  VALUES
+INSERT INTO [dbo].[service_status] (status)  VALUES
 ('active'),
 ('inactive'),
 ('out of stock'),
@@ -39,16 +39,16 @@ INSERT INTO [dbo].[service] (name, status_id, tavern_id) VALUES
 ('bowling', 4, 1);
 
 INSERT INTO [dbo].[sales] (service_id, tavern_id, guest, price, date_purchased) VALUES
-(1, 2, 'Mr. Gandalf', '2000$', '20191001'),
-(3, 2, 'Old monk with a stick', '300$', '20190802'),
-(3, 1, 'Bearded Dwarf', '4000$', '20190303'),
-(3, 1, 'Little hobbit', '2150$', '20190405');
+(1, 2, 'Mr. Gandalf', '2000', '20191001'),
+(3, 2, 'Old monk with a stick', '300', '20190802'),
+(3, 1, 'Bearded Dwarf', '4000', '20190303'),
+(3, 8, 'Little hobbit', '2150', '20190405');
 
-INSERT  INTO [dbo],[recievement] (supply_id, tavern_id, cost, amount, date) VALUES
-(5, 2, '20000$', '11', '20181011'),
-(4, 3, '30000$', '14', '20181111'),
-(3, 4, '40000$', '15', '20181211'),
-(2, 5, '50000$', '16', '20180202');
+INSERT  INTO [dbo].[receivement] (supply_id, tavern_id, cost, amount, date) VALUES
+(5, 2, '20000', '11', '20181011'),
+(4, 3, '30000', '14', '20181111'),
+(3, 4, '40000', '15', '20181211'),
+(2, 5, '50000', '16', '20180202');
 
 INSERT INTO [dbo].[rat] (name, floor_number) VALUES
 ('Barry', 2),
@@ -65,9 +65,8 @@ INSERT INTO [dbo].[floor] (floor_number) VALUES
 (5),
 (6);
 
-INSERT INTO [dbo].[count] (supply_id, tavern_id, date, current_count) VALUES
-(1,2,20190101,450),
-(2,3,20190201,350),
-(4,3,20190301,550),
-(4,5,20190401,650);
-
+INSERT INTO [dbo].[counts] (supply_id, tavern_id, date, current_count) VALUES
+(1,2,'20190101',450),
+(2,3,'20190201',350),
+(4,3,'20190301',550),
+(4,5,'20190401',650);
