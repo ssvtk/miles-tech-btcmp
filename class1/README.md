@@ -4,7 +4,7 @@
 **.sql file scripts and Entity Relation Diagram has been created.**
 <br>
 <br>
-[SQL Script for tables](https://github.com/ssvtk/miles-tech-btcmp/blob/main/class1/tavern.sql)
+[SQL Script for tables creation](https://github.com/ssvtk/miles-tech-btcmp/blob/main/class1/tavern.sql)
 <br>
 <br>
 [SQL Script for filling data](https://github.com/ssvtk/miles-tech-btcmp/blob/main/class1/filling.sql)
