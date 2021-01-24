@@ -1,5 +1,5 @@
 # Miles Technologies Development Boot Camp
-## Class #1
+## Class #1 Assignment
 
 **.sql file scripts and Entity Relation Diagram has been created.**
 <br>
