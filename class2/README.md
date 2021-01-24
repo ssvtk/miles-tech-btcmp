@@ -7,7 +7,7 @@
 **.sql file scripts and Entity Relation Diagram has been updated according to the assignment.**
 <br>
 <br>
-[SQL Script for tables creation and altering]()
+[SQL Script for tables creation and altering](https://github.com/ssvtk/miles-tech-btcmp/blob/main/class2/les2fill.sql)
 <br>
 <br>
 [Failing SQL Script for constraint demonstation](https://github.com/ssvtk/miles-tech-btcmp/blob/main/class2/const.sql)
