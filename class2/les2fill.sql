@@ -125,8 +125,8 @@ CREATE TABLE [guest] (
   [tavern_id] int,
   [cakeday] date,
   [status] varchar(150),
-  [class_id] int,
+  [class] varchar(50),
   PRIMARY KEY ([id]),
   FOREIGN KEY (tavern_id) REFERENCES tavern(tavern_id),
-  FOREIGN KEY (class_id) REFERENCES class_list(class),
+  FOREIGN KEY (class) REFERENCES class_list(class),
 );
