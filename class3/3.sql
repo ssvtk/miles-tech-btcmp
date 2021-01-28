@@ -1,0 +1,1 @@
+SELECT * FROM room_stays WHERE rate_per_night > 100;
