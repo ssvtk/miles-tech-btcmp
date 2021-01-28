@@ -128,5 +128,5 @@ CREATE TABLE [guest] (
   [class] varchar(50),
   PRIMARY KEY ([id]),
   FOREIGN KEY (tavern_id) REFERENCES tavern(tavern_id),
-  FOREIGN KEY (class) REFERENCES class_list(class),
+  FOREIGN KEY (class) REFERENCES class(class),
 );
