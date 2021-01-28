@@ -26,7 +26,7 @@
 <br>
 [8. Write a query that returns Guest Classes with Levels and Generate a new column with a label for their level grouping (lvl 1-10, 10-20, etc)]
 <br>
-[9. Write a series of INSERT commands that will insert the statuses of one table into another of your choosing using SELECT statements (See our lab in class - The INSERT commands should be generated).]
+[9. Write a series of INSERT commands that will insert the statuses of one table into another of your choosing using SELECT statements (See our lab in class - The INSERT commands should be generated).](https://github.com/ssvtk/miles-tech-btcmp/blob/main/class3/9.sql)
 ![my_scheme](https://user-images.githubusercontent.com/49266473/106093097-40fddb80-6162-11eb-9978-8e8f194a9d54.png)
 
 
