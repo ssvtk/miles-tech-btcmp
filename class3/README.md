@@ -22,9 +22,7 @@
 <br>
 [6. Write a query that returns the top 10 highest price sales](https://github.com/ssvtk/miles-tech-btcmp/blob/main/class3/6.sql)
 <br>
-[7. Write a query to return all the values stored in all Lookup Tables - Lookup tables are the tables we reference typically with just an ID and a name. This should be a dynamic combining of all of the tables]()
-<br>
-[8. Write a query that returns Guest Classes with Levels and Generate a new column with a label for their level grouping (lvl 1-10, 10-20, etc)]
+[7. Write a query to return all the values stored in all Lookup Tables - Lookup tables are the tables we reference typically with just an ID and a name. This should be a dynamic combining of all of the tables]
 <br>
 [8. Write a query that returns Guest Classes with Levels and Generate a new column with a label for their level grouping (lvl 1-10, 10-20, etc)]
 <br>
