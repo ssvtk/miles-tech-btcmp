@@ -1,0 +1,1 @@
+SELECT TOP(10) * FROM sales ORDER BY price DESC;
