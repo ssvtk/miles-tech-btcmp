@@ -94,3 +94,39 @@ CREATE TABLE [sales] (
   FOREIGN KEY (service_supplies_id) REFERENCES service_supplies(id),
 
 );
+
+CREATE TABLE [class_list] (
+  [class] varchar(50),
+  PRIMARY KEY ([class])
+);
+
+CREATE TABLE [level] (
+  [level] int,
+  PRIMARY KEY ([level])
+);
+
+
+
+CREATE TABLE [class] (
+  [id] int,
+  [level] int,
+  [class] varchar(50),
+  PRIMARY KEY ([id]),
+  FOREIGN KEY (class) REFERENCES class_list(class),
+  FOREIGN KEY (level) REFERENCES level(level),
+);
+
+
+
+CREATE TABLE [guest] (
+  [id] int,
+  [notes] varchar(150),
+  [birthday] date,
+  [tavern_id] int,
+  [cakeday] date,
+  [status] varchar(150),
+  [class_id] int,
+  PRIMARY KEY ([id]),
+  FOREIGN KEY (tavern_id) REFERENCES tavern(tavern_id),
+  FOREIGN KEY (class_id) REFERENCES class_list(class),
+);
